@@ -1,29 +1,3 @@
-/* app css stylesheet */
-
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
-}
-
-.menu > li {
-  display: inline;
-}
-
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
-}
-
 .transparent {
 	background: rgba(245, 245, 245, 0.8);
 }
@@ -34,4 +8,16 @@ background-image: url('../img/bg.jpg'); background-size:100% auto;
 
 .big{
 	font-size:46px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+
+.golfClubImgs {
+	height: 200px;
+	max-height: 300px;
+	/*width: 1200px;*/
+	overflow: hidden;
 }
