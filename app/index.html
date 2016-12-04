@@ -20,6 +20,7 @@
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->
 
+	<div class="container">
 	<nav class="navbar navbar-default">
 		<div class="container">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -55,10 +56,10 @@
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->
 	</nav>
+		<div ng-view>
+			<!-- Angular content here -->
 
-	<div ng-view>
-		<!-- Angular content here -->
-
+		</div>
 	</div>
 
 	<div>Angular seed app: v<span app-version></span></div>
