@@ -1,0 +1,13 @@
+{
+  "name": "ACP",
+  "authors": [
+    "Atropo <lachesi@gmail.com>"
+  ],
+  "description": "Sito acp",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

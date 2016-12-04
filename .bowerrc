@@ -1,0 +1,6 @@
+{
+	"directory":"app/libs" ,
+	"scripts":{
+		"postinstall" : "wiredep -s app/index.html"
+		}
+}
