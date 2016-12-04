@@ -23,3 +23,15 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+.transparent {
+	background: rgba(245, 245, 245, 0.8);
+}
+.body{
+background-image: url('../img/bg.jpg'); background-size:100% auto;
+	background-repeat: no-repeat;
+}
+
+.big{
+	font-size:46px;
+}
