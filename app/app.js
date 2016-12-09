@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'countTo',
+  'duScroll',
   'myApp.home',
   'myApp.trophy',
   'myApp.contatti',
