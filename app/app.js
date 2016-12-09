@@ -6,6 +6,10 @@ angular.module('myApp', [
   'myApp.home',
   'myApp.trophy',
   'myApp.contatti',
+  'myApp.storia',
+  'myApp.statuto',
+  'myApp.clubs',
+  'myApp.convenzioni',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
