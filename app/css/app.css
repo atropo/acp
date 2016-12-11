@@ -22,3 +22,21 @@ background-image: url('../img/bg.jpg'); background-size:100% auto;
 	/*width: 1200px;*/
 	overflow: hidden;
 }
+
+.arrow_dx{
+	background-image: url('../img/arrow_dx.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 30% 100%;
+	margin-top: 100px;
+	height: 120px;
+}
+
+.arrow_sx{
+	background-image: url('../img/arrow_sx.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 30% 100%;
+	margin-top: 100px;
+	height: 120px;
+}
