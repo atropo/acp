@@ -8,6 +8,22 @@
 	font-family: 'Averia Sans Libre', cursive;
 }
 
+.bg1{
+	background-image: url('../img/bg1.jpg'); background-size:100% auto;
+}
+
+.bg2{
+	background-image: url('../img/bg2.jpg'); background-size:100% auto;
+}
+
+.bg3{
+	background-image: url('../img/bg3.jpg'); background-size:100% auto;
+}
+
+.bg4{
+	background-image: url('../img/bg4.jpg'); background-size:100% auto;
+}
+
 .big{
 	font-size:46px;
 }
