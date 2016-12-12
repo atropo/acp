@@ -9,6 +9,7 @@ angular.module('myApp.convenzioni', ['ngRoute'])
   });
 }])
 
-.controller('convenzioniCtrl', [function() {
+.controller('convenzioniCtrl', ['$rootScope', function($rootScope) {
 
+	$rootScope.section="acp";
 }]);

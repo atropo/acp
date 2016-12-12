@@ -9,6 +9,7 @@ angular.module('myApp.contatti', ['ngRoute'])
   });
 }])
 
-.controller('contattiCtrl', [function() {
+.controller('contattiCtrl', ['$rootScope', function($rootScope) {
 
+	$rootScope.section="contatti";
 }]);

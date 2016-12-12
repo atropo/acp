@@ -9,6 +9,7 @@ angular.module('myApp.storia', ['ngRoute'])
   });
 }])
 
-.controller('storiaCtrl', [function() {
+.controller('storiaCtrl', ['$rootScope', function($rootScope) {
 
+	$rootScope.section="acp";
 }]);

@@ -9,6 +9,7 @@ angular.module('myApp.statuto', ['ngRoute'])
   });
 }])
 
-.controller('statutoCtrl', [function() {
+.controller('statutoCtrl', ['$rootScope', function($rootScope) {
 
+	$rootScope.section="acp";
 }]);

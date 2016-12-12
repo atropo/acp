@@ -9,6 +9,7 @@ angular.module('myApp.trophy', ['ngRoute'])
   });
 }])
 
-.controller('trophyCtrl', [function() {
+.controller('trophyCtrl', ['$rootScope', function($rootScope) {
+	$rootScope.section="trophy";
 
 }]);

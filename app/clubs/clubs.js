@@ -9,6 +9,7 @@ angular.module('myApp.clubs', ['ngRoute'])
   });
 }])
 
-.controller('clubsCtrl', [function() {
+.controller('clubsCtrl', ['$rootScope', function($rootScope) {
 
+	$rootScope.section="acp";
 }]);
