@@ -2,9 +2,10 @@
 	background: rgba(245, 245, 245, 0.8);
 }
 .body{
-background-image: url('../img/bg.jpg'); background-size:100% auto;
+	background-image: url('../img/bg.jpg'); background-size:100% auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	font-family: 'Averia Sans Libre', cursive;
 }
 
 .big{
