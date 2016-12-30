@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.home',
   'myApp.trophy',
   'myApp.classifica',
+  'myApp.regolamento',
   'myApp.contatti',
   'myApp.storia',
   'myApp.statuto',
