@@ -9,6 +9,7 @@ angular.module('myApp', [
   'myApp.trophy',
   'myApp.classifica',
   'myApp.regolamento',
+  'myApp.premi',
   'myApp.contatti',
   'myApp.storia',
   'myApp.statuto',
