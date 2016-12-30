@@ -7,6 +7,7 @@ angular.module('myApp', [
   'duScroll',
   'myApp.home',
   'myApp.trophy',
+  'myApp.classifica',
   'myApp.contatti',
   'myApp.storia',
   'myApp.statuto',
