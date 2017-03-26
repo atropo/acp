@@ -12,6 +12,7 @@
 				<h4>Convenzioni</h4>
 		<div id="carousel-clubs" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
+			<!--
 			<ol class="carousel-indicators">
 				<li data-target="#carousel-clubs" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-clubs" data-slide-to="1"></li>
@@ -22,53 +23,16 @@
 				<li data-target="#carousel-clubs" data-slide-to="6"></li>
 				
 			</ol>
+			-->
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img class="golfClubImgs" src="../img/clubs/cropped/asolo.jpg" alt="Golf Club Asolo">
-					<div class="carousel-caption">
-						<h1>Golf Club Asolo</h1>
-					</div>
-				</div>
 
-				
-				<div class="item">
-					<img class="golfClubImgs" src="../img/clubs/cropped/ca_amata.jpg" alt="Golf Club Ca Amata">
+				<div class="item" ng-repeat="club in convenzionati" ng-class="{active: $first}">
+					<img class="golfClubImgs" ng-src="../img/clubs/cropped/{{club.img}}" alt="{{club.nome}}">
 					<div class="carousel-caption">
-						<h1>Golf Club Ca Amata</h1>
+						<h1>{{club.nome}}</h1>
 					</div>
 				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/clubs/cropped/ca_della_nave.jpg" alt="Golf Ca della nave">
-					<div class="carousel-caption">
-						<h1>Golf Club Ca della Nave</h1>
-					</div>
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/clubs/cropped/jesolo.jpg" alt="Golf Club Jesolo">
-					<div class="carousel-caption">
-						<h1>Golf Club Jesolo</h1>
-					</div>
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/clubs/cropped/pra_delle_torri.jpg" alt="Golf Club Pra delle Torri">
-					<div class="carousel-caption">
-						<h1>Golf Club Pra delle Torri</h1>
-					</div>
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/clubs/cropped/spessa.jpg" alt="Golf Club Castello di Spessa">
-					<div class="carousel-caption">
-						<h1>Golf Club Castello di Spessa</h1>
-					</div>
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/clubs/cropped/villa_condulmer.jpg" alt="Golf Club Villa Condulmer">
-					<div class="carousel-caption">
-						<h1>Golf Club Villa Condulmer</h1>
-					</div>
-				</div>
-
 			</div>
 		</div>
 			</div>
@@ -80,25 +44,3 @@
 <iframe src="https://www.google.com/maps/d/embed?mid=1-WE9FB5M35IU9m9FP3-7P-06LIE" width="640" height="480"></iframe>
 		</div>
 	</div>
-<!--
-	<div class="row">
-		<div class="col-md-6">
-			<ul>
-			<li> <a href="http://www.golfjesolo.it/" target="_blank"><h4><strong>Golf Club Jesolo</strong></a> </h4></li>
-			<li> <a href="http://www.golfpradelletorri.it/" target="_blank"> <h4><strong>Golf Club Pra delle Torri</strong></h4> </a> </li>
-			<li> <a href="http://www.golfcastellodispessa.it/n/" target="_blank"> <h4><strong>Golf Club Castello di Spessa</strong></h4></a> </li>
-			<li> <a href="http://www.cadellanave.com/" target="_blank"> <h4><strong>Golf Club Ca Della Nave</strong></h4> </a> </li>
-			</li>
-		</ul>
-		</div>
-		<div class="col-md-6">
-			<ul>
-			<li> <a href="http://www.golfvillacondulmer.com/" target="_blank"> <h4><strong>Golf Club Villa Condulmer</strong></h4> </a> </li>
-			<li> <a href="http://www.asologolf.it/" target="_blank"> <h4><strong>Golf Club Asolo</strong></h4> </a> </li>
-			<li> <a href="http://www.golfcaamata.it/" target="_blank" > <h4><strong>Golf Club Ca Amata</strong></h4> </a> </li>
-			<li> <a href="http://www.golfclubcasteldaviano.it/" target="_blank"> <h4><strong>Golf Club Castel D'Aviano</strong></h4> </a>
-			</li>
-		</ul>
-		</div>
-</div>
--->

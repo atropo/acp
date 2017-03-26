@@ -9,7 +9,20 @@ angular.module('myApp.classifica', ['ngRoute'])
   });
 }])
 
-.controller('classificaCtrl', ['$rootScope', function($rootScope) {
+.controller('classificaCtrl', ['$rootScope', '$scope', function($rootScope, $scope) {
 	$rootScope.section="classifica";
+
+	var sponsors = [
+		{img:"jermann.png" , nome:"Jermann"},
+		{img:"tosolini.png" , nome:"Grappe Tosolini"},
+		{img:"sava.png" , nome:"Sava Hotels"},
+		{img:"acentro.png" , nome:"Acentro Turismo"},
+		{img:"markeyewear.jpg" , nome:"MarkEyewear"},
+		{img:"castello.png" , nome:"Castello di Spessa"}
+	];
+
+	$scope.sponsors = _.shuffle(sponsors);
+
+
 
 }]);
