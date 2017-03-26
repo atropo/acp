@@ -9,6 +9,7 @@
   "homepage": "",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "angular-scroll": "^1.0.0"
+    "angular-scroll": "^1.0.0",
+    "lodash": "^4.17.4"
   }
 }

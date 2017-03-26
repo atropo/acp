@@ -30,54 +30,9 @@
 			</ol>-->
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<img class="golfClubImgs" src="../img/campi_pratica/faula.jpg" alt="La Faula Golf Club">
-					<div class="carousel-caption">
-						<h2>      Golf Club</h2>
-					</div>
-				</div>
 
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/bosco.jpg" alt="Golf Club Il Bosco">
-					
-				</div>
-				
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/abano.jpg" alt="Golf Club Abano">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/ancora.jpg" alt="Golf Club Ancora">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/brolo.jpg" alt="Golf Club Brolo Bassano">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/musella.jpg" alt="Golf Club Musella">
-					
-				</div>
-				
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/noghere.jpg" alt="Golf Club Le Noghere">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/polo.jpg" alt="Golf Club Marco Polo">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/conegliano.jpg" alt="Golf Club Ville di 					Conegliano ">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/corradina.jpg" alt="Golf Club la Corradina ">
-					
-				</div>
-				<div class="item">
-					<img class="golfClubImgs" src="../img/campi_pratica/5laghi.jpg" alt="Golf Club 5 Laghi ">
-					
+				<div class="item" ng-repeat="campo in campiPratica" ng-class="{active: $first}">
+					<img class="golfClubImgs" ng-src="../img/campi_pratica/{{campo.img}}" alt="{{campo.nome}}">
 				</div>
 			</div>
 
