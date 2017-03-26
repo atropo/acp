@@ -15,6 +15,7 @@ angular.module('myApp', [
   'myApp.statuto',
   'myApp.clubs',
   'myApp.convenzioni',
+  'myApp.tappa1',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
