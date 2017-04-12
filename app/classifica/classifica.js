@@ -18,7 +18,8 @@ angular.module('myApp.classifica', ['ngRoute'])
 		{img:"sava.png" , nome:"Sava Hotels"},
 		{img:"acentro.png" , nome:"Acentro Turismo"},
 		{img:"markeyewear.jpg" , nome:"MarkEyewear"},
-		{img:"castello.png" , nome:"Castello di Spessa"}
+		{img:"castello.png" , nome:"Castello di Spessa"},
+		{img:"carga.png" , nome:"Carga"}
 	];
 
 	$scope.sponsors = _.shuffle(sponsors);
